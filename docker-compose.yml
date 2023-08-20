@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  catlemock:
+    container_name: catlemock
+    image: castlemock/castlemock
+    ports:
+      - "8080:8080"
+    #volumes:
+      #- ./webapps.dist:/usr/local/tomcat/webapps/
